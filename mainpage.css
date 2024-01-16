@@ -1,0 +1,132 @@
+.main-title {
+    background-color: white;
+    color: black;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-top-left-radius: 50px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: -50px; /* Adjust as needed */
+    position: relative;
+    z-index: 2;
+}
+.container{
+  margin-top: 50px;
+}
+.sub-title{
+  margin-right: 500px;
+  /* padding-right: 500px; */
+  position: relative;
+}
+.helpful{
+  background-color: whitesmoke;
+  /* border: 50px; */
+  height: fit-content;
+  width: 200px;
+  border-radius: 10px;    
+}
+.end{
+  background-color: #003166;
+}
+@media screen and (max-width: 768px) {
+  .main-title {
+      margin-right: 0; 
+      margin-left: 50px;
+  }
+  .sub-title{
+  margin-right: 0;
+}
+.right-div{
+  display: none;
+}
+
+}
+/* Set right margin to 0 for smaller screens */
+.carousel {
+    z-index: 1;
+}
+.white-text { /* White text*/ 
+    color: white !important;
+}
+.max-height {
+max-height: 400px; /* Set your desired maximum height */
+min-height: 400px;
+margin: auto; /* Center the image horizontally */
+}
+.header{
+  font-family: 'Times New Roman', Times, serif;
+}
+.slideshow{
+  max-width: 300px;
+  max-height: 300px;
+}
+.right-div {
+    color: #003166;
+    float: right; /* Set the float property to right */
+    max-width: 500px; /* Set a width to the div if needed */
+    max-height: 100vh; /* Set a height to the div if needed */
+    /* background-color: whitesmoke; */ /* Add background color for visibility */
+    margin-right: 100px;  
+}
+
+/* Clear the float to prevent content below from wrapping around */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Optional: Apply styles to the content below */
+.content {
+    /* Add styles for the content below */
+    padding: 20px;
+}
+/* Add hover effect for the navbar */
+.navbar:hover {
+    background-color: #007BFF; /* Change the background color on hover */
+}
+
+/* Add hover effect for the navbar links */
+.navbar a:hover {
+    color: blue; /* Change the text color on hover */
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: opacity 0.3s;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.endcontainer img,
+.endcontainer p {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.endcontainer{
+  padding: 20px;
+}
+.copyright{
+  padding: 5px;
+  margin-left: 20px;
+}
