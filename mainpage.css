@@ -10,6 +10,9 @@
     position: relative;
     z-index: 2;
 }
+.remove-decoration {
+  text-decoration: none;
+}
 .container{
   margin-top: 50px;
 }
